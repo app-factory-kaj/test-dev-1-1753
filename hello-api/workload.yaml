@@ -1,0 +1,11 @@
+apiVersion: openchoreo.dev/v1alpha1
+metadata:
+  name: hello-api
+
+endpoints:
+  - name: hello-api-http
+    type: HTTP
+    port: 9090
+    basePath: /
+    visibility:
+      - external
